@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1B5581F2C337616000717F3 /* Adventure_App_DayhuffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B5581E2C337616000717F3 /* Adventure_App_DayhuffApp.swift */; };
-		E1B558212C337616000717F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B558202C337616000717F3 /* ContentView.swift */; };
+		E1B5581F2C337616000717F3 /* AdventureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B5581E2C337616000717F3 /* AdventureApp.swift */; };
+		E1B558212C337616000717F3 /* AdventureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B558202C337616000717F3 /* AdventureView.swift */; };
 		E1B558232C337617000717F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B558222C337617000717F3 /* Assets.xcassets */; };
 		E1B558262C337617000717F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B558252C337617000717F3 /* Preview Assets.xcassets */; };
+		E1B5582D2C337635000717F3 /* AdventureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B5582C2C337635000717F3 /* AdventureModel.swift */; };
+		E1B5582F2C337697000717F3 /* AdventureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B5582E2C337697000717F3 /* AdventureController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1B5581B2C337616000717F3 /* Adventure App Dayhuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adventure App Dayhuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1B5581E2C337616000717F3 /* Adventure_App_DayhuffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventure_App_DayhuffApp.swift; sourceTree = "<group>"; };
-		E1B558202C337616000717F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1B5581E2C337616000717F3 /* AdventureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureApp.swift; sourceTree = "<group>"; };
+		E1B558202C337616000717F3 /* AdventureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureView.swift; sourceTree = "<group>"; };
 		E1B558222C337617000717F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1B558252C337617000717F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1B5582C2C337635000717F3 /* AdventureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureModel.swift; sourceTree = "<group>"; };
+		E1B5582E2C337697000717F3 /* AdventureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		E1B5581D2C337616000717F3 /* Adventure App Dayhuff */ = {
 			isa = PBXGroup;
 			children = (
-				E1B5581E2C337616000717F3 /* Adventure_App_DayhuffApp.swift */,
-				E1B558202C337616000717F3 /* ContentView.swift */,
+				E1B5581E2C337616000717F3 /* AdventureApp.swift */,
+				E1B558202C337616000717F3 /* AdventureView.swift */,
+				E1B5582C2C337635000717F3 /* AdventureModel.swift */,
+				E1B5582E2C337697000717F3 /* AdventureController.swift */,
 				E1B558222C337617000717F3 /* Assets.xcassets */,
 				E1B558242C337617000717F3 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1B558212C337616000717F3 /* ContentView.swift in Sources */,
-				E1B5581F2C337616000717F3 /* Adventure_App_DayhuffApp.swift in Sources */,
+				E1B558212C337616000717F3 /* AdventureView.swift in Sources */,
+				E1B5581F2C337616000717F3 /* AdventureApp.swift in Sources */,
+				E1B5582F2C337697000717F3 /* AdventureController.swift in Sources */,
+				E1B5582D2C337635000717F3 /* AdventureModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

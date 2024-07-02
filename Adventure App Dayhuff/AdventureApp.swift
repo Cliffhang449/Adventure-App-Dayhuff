@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct Adventure_App_DayhuffApp: App {
+struct AdventureApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let model = AdventureModel.initial
+            let controller = AdventureController(model: model)
+            AdventureView(controller: controller)
         }
     }
 }
